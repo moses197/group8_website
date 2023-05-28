@@ -41,7 +41,7 @@ nav > .nav-item {
     /* background-color: brown; */
     display: flex;
     margin-left: 66%;
-    gap: 1rem;
+    gap: 1.7rem;
 }
 
 nav > .nav-item > .home {
