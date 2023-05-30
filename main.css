@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --img-bg-color: rgb(19, 12, 12);
+    --btn-bg-color: rgba(186, 189, 186, 0.795);
+}
+
 body {
     /* background-color: bisque; */
     background: linear-gradient(to right, rgb(196, 193, 190), rgb(226, 199, 168));
@@ -69,4 +74,40 @@ nav > .nav-item > .home {
 
 .portal:hover {
     color: brown;
+}
+
+.sec-img {
+    background-color: var(--img-bg-color);
+}
+
+.intro-img > img {
+    width: 1570px;
+    height: 785px;
+    margin-left: auto;
+}
+
+.btn-flex {
+    margin: 5em;
+    display: flex;
+    flex-direction: row;
+    gap: .8em;
+    /* justify-content: center; */
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.ctrl-btn {
+    width: 50px;
+    height: 50px;
+    background-color: var(--btn-bg-color);
+    /* border-color: antiquewhite; */
+    border: 2px solid whitesmoke;
+    margin-bottom: 4rem;
+    border-radius: 25px;
+    color: antiquewhite;
+    /* border-style: ; */
+}
+
+.ctrl-btn:hover {
+    background-color: brown;
 }
