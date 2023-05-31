@@ -32,6 +32,7 @@ body {
     align-items: center;
     position: fixed;
     top: 0;
+    padding: 1rem;
 
 }
 
@@ -39,6 +40,11 @@ nav > .nav-left{
     height: auto;
     margin-left: 4rem;
     /* padding-left: 6rem; */
+}
+
+.nav > .nav-left > p {
+    font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 nav > .nav-item {
