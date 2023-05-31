@@ -9,6 +9,8 @@
     --btn-bg-color: rgba(186, 189, 186, 0.795);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
 body {
     /* background-color: bisque; */
     background: linear-gradient(to right, rgb(231, 231, 231), rgb(243, 242, 241));
