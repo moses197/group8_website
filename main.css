@@ -92,8 +92,10 @@ nav > .nav-item > .home {
 }
 
 section > img {
-    min-width: 1300px;
-    height: 650px;
+    /* width: 1300px;
+    height: 650px; */
+    width: 96%;
+    height: auto;
     margin-left: auto;
 }
 
