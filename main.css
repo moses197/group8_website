@@ -17,6 +17,7 @@ body {
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
     height: 700vh;
+    width: 100vw;
 }
 
 .nav {
@@ -86,12 +87,15 @@ nav > .nav-item > .home {
 
 .sec-img {
     background-color: var(--img-bg-color);
+    width: 100%;
     /* position: relative; */
 }
 
-.intro-img > img {
-    width: 1570px;
-    height: 785px;
+section > img {
+    /* width: 1300px;
+    height: 650px; */
+    width: 96%;
+    height: auto;
     margin-left: auto;
 }
 
