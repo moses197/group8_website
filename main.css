@@ -177,13 +177,36 @@ nav > .nav-item > .home {
     /* position: relative; */
 }
 
-section > img {
+section > div > img {
     /* width: 1300px;
     height: 650px; */
     width: 96%;
     height: auto;
     margin-left: auto;
+    background-image: linear-gradient(steelblue, blue);
+
 }
+
+/* testing */
+
+section > div {
+    position: relative;
+    /* background-image: linear-gradient(steelblue, blue); */
+}
+
+section > div > .img-over {
+    width: 40%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    left: 5%;
+    top: 10%;
+    font-size: 200%;
+    padding: 4rem;
+}
+
+/* endtesting */
 
 .btn-flex {
     margin: 5em;
@@ -209,4 +232,14 @@ section > img {
 
 .ctrl-btn:hover {
     background-color: brown;
+}
+
+.btn-over {
+    background-color: #e32845;
+    border-style: none;
+}
+
+.btn-over:hover {
+    background-color: #111d5e;
+    border-radius: 125px;
 }
