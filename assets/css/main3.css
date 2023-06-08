@@ -1,0 +1,188 @@
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: blueviolet;
+    height: 60px;
+    }
+    
+    
+    .academics{
+        background-color:white;
+    }
+    
+    .academics--head{
+        text-align: center;
+        width: 40%;
+        margin: 0 30% 0 30%;
+    }
+    
+    .academics--head_header{ 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(0, 0, 110);
+    }
+    
+    .academics--head_text{ text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+        padding-bottom: 10px;
+        padding: 0 17% 0 17%;
+    
+    }
+    
+    .educationtype{
+        margin: 0 13% 0 13%;
+        height: 160px;
+        position: relative;
+        
+    }
+    
+    .undergraduate{
+        display: inline-block;
+        width: 32%;
+        margin: 0%;
+        height: 100%;
+        position: absolute;
+        background-color:rgb(212, 218, 224);
+        
+        
+    }
+    
+    .graduate{
+        display: inline-block;
+        width: 32.3%;
+        margin-left: 33.3%;
+        height: 100%;
+        background-color:rgb(212, 218, 224);
+        position: absolute;
+      
+        
+       
+    }
+    
+    .lifelong{
+        display: inline-block;
+        width: 32.2%;
+        margin-left: 66.96%;
+        background-color:rgb(212, 218, 224);
+        height: 100%;
+        position: absolute;
+        
+        
+    }
+    
+    .educationtype_header{
+        
+        padding-left: 14%;
+        font-size: 19px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(0, 0, 110);
+    }
+    .educationtype_headerimg{
+        padding-left: 10px;
+        width: 30px;
+        
+    }
+    .educationtype_text{
+       
+        margin: 0px ;
+        font-size: 14px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    
+    .pad{
+        padding-left: 8px;
+        
+    }
+    .pass{
+      padding-left: 8px;
+      color: rgb(0, 0, 110);
+    }
+    
+    .campusinfotab{
+        
+      display: flex;
+      height: 500px;
+      column-gap: 10%;
+      margin: 30px 0 0 13%;
+      
+        
+    }
+    .campusinfotext{
+        
+      width: 40%;
+          
+      }
+      .campusinfoimg{
+        
+        
+        width: 40%;
+          
+      }
+    
+      .campusinfoheader{
+    
+        margin-left: 10px;
+        font-size:30px;
+        color: rgb(0, 0, 110);
+      }
+        
+      .campusinfo--text1{
+        font-size: 14px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 10px;
+      }
+    
+    
+      .campusinfo--text2__list{
+        font-size: 15px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 5rem;
+        display: flex;
+        text-align: left;
+        
+      }
+    
+      .campusinfo--text2__list ol{
+        margin-left: -40px;
+        width: 100%;
+    
+      }
+    
+      .readings{
+        display: flex;
+        font-size: 50px;
+        font-family:Arial, Helvetica, sans-serif;
+        column-gap: 50px;
+        font-weight: 200%;
+    
+      }
+    
+      .readings2{
+        display: flex;
+        font-size: 13px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        column-gap: 50px ;
+        margin-bottom: 40px;
+    
+      }
+    
+      .button {
+        background-color: #4CAF50; /* red */
+        border: none;
+        color: white;
+        padding: 14px 90px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+        cursor: pointer;
+      }
+      
+      .button2 {background-color: #008CBA;} /* red */

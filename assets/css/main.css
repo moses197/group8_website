@@ -875,3 +875,283 @@ h1,h2,h3,h4,h5,h6{
 .sanu-footer p {
     color: white;
 }
+
+/* * {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+.hero-section {
+    width: 100%;
+    /* height: 550px; */
+    background-color: #18225c;
+    background-image: url('../images/login-pics/formbanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-position: top center;
+    padding-bottom: 80px;
+    margin-bottom: 120px;
+  }
+  
+  .Login-Hero {
+    padding-top: 250px;
+    padding-left: 180px;
+  }
+  .Login-Hero h3 {
+    margin-left: 8px;
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+    color: #fff;
+  }
+  .Login-Hero ul {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .Login-Hero ul li,
+  .Login-Hero ul span {
+    list-style: none;
+    margin-left: 8px;
+    margin-top: 10px;
+    color: #fff;
+  }
+  .Login-Hero ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+  }
+  .Login-Hero .inner {
+    /**color: #111d5e;**/
+    color: #e32845;
+  }
+  .form-pannel h4 {
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 45px;
+    font-size: 25px;
+    color: #111d5e;
+  }
+  .form-pannel {
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 80px;
+    position: relative;
+  }
+  .form-pannel .inner-form {
+    padding: 70px;
+  }
+  .text-field {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(141, 141, 141);
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+  }
+  form {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .text-field::placeholder {
+    font-size: 16px;
+    color: rgb(22, 22, 22);
+  }
+  .text-field:focus {
+    border: 1px solid #e32845;
+    transition: 0.3s ease-in;
+  }
+  .check-icon {
+    border: 1px solid rgb(122, 122, 122);
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+  }
+  .check-icon:checked {
+    outline: #e32845;
+  }
+  
+  .form-pannel button {
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 15px 35px;
+    font-size: 16px;
+    color: rgb(22, 22, 22);
+  }
+  .form-pannel button:hover {
+    cursor: pointer;
+    transform: matrix3d(50deg);
+    background-color: #111d5e;
+    border-radius: 50px;
+    border: none;
+    transition: 0.5s ease-out;
+    color: #fff;
+  }
+  .form-pannel p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .form-pannel p:hover {
+    cursor: pointer;
+  }
+  .form-pannel span {
+    width: 90px;
+    height: 2px;
+    background: #e32845;
+    position: absolute;
+    top: 110px;
+    bottom: 0;
+  }
+  .form-pannel hr {
+    position: absolute;
+    top: 0%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .Login-Hero{
+      text-align: center;
+      padding-left: 0;
+    }
+    .form-pannel{
+      width: 90%;
+    }
+    .Login-Hero ul
+   {
+  
+    margin-left: 140px;
+    
+  }
+  }
+
+
+  
+
+
+
+  .academicss{
+    background-color:white;
+    
+}
+
+.academics--head{
+    text-align: center;
+    width: 40%;
+    margin: 0 30% 0 30%;
+    color: rgb(0, 0, 110);
+}
+
+/* .academics--head_header{ 
+   
+} */
+
+.academics--head_text{ text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    padding-bottom: 10px;
+    padding: 0 17% 0 17%;
+
+}
+.buttonx {
+    background-color: #4CAF50; /* red */
+    border: none;
+    color: white;
+    padding: 14px 90px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+    cursor: pointer;
+  }
+  
+  .button2 {background-color: #008CBA;} /* red */
+
+  .body--box{
+    margin: 30px 15% 0 15% ;
+    text-align: center;
+   
+  
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+
+  .bb-box {
+    margin: 1rem;
+  }
+
+
+
+  .stories{
+    
+    height: 500px;
+    
+}
+/* body{
+    margin: 0;
+    background-color:rgba(212, 212, 212, 0.596);
+} */
+
+.stories--head{
+    text-align: center;
+    
+    margin: 0 30% 0 30%;
+    padding: 1rem;
+}
+
+.stories--head_header{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 110);
+
+}
+
+.stories--head_text{ text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    padding: 1rem;
+    padding-bottom: 10px;
+    padding: 0 17% 0 17%;
+
+}
+
+.youtube{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 15% 0 15%;
+    height: 270px;
+    gap: 2rem;
+    /* margin: 1rem; */
+
+}
+
+.youtube--slide{
+    background-color:white;
+    height: 270px;
+    font-size:19px ;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 20rem; */
+    box-shadow: #18225c;
+}
+
+.youtube--text{
+
+    margin:3% 0 0 5% ;
+    font-family: calibri;
+    text-justify: distribute-all-liness;
+    height: 20%;
+    color: rgb(0, 0, 110);
+}
+.youtube--vid{
+
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+   border: 0px solid black;
+ 
+    height: 94%;
+}
