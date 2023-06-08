@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -209,11 +211,11 @@ section > div > .img-over {
     position: absolute;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.4rem;
     left: 5%;
-    top: 10%;
+    top: 8%;
     font-size: 200%;
-    padding: 4rem;
+    /* padding: 4rem; */
 }
 
 /* endtesting */
