@@ -37,7 +37,7 @@ body {
     position: sticky;
     top: 0;
     padding: 1rem;
-    z-index: 1;
+    z-index: 10;
 
 }
 
@@ -633,3 +633,243 @@ h1,h2,h3,h4,h5,h6{
         border-radius: 125px;
     }
     
+
+/* Footer */
+/* body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+} */
+
+.social-content ul{
+    display: flex;
+    gap: 1.5rem;
+  
+}
+
+.social-content{
+    width: 20rem;
+    height: 2.4rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 5rem;
+}
+
+.social-content li {
+    list-style: none;
+}
+
+.column-4 {
+    background-color: #111d5e;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    gap: 40rem;
+}
+
+.sanu-footer {
+    height: 2.4rem;
+    width: 20rem;
+
+}
+
+.sanu-footer p a {
+    text-decoration: none;
+    color: red;
+}
+
+.footer-distributed {
+    background-image: url("https://templates.hibootstrap.com/sanu/default/assets/images/shape-1.png");
+    background-color: #052c65;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 26rem;
+    display: flex;
+
+}
+
+.column-3 {
+    width: 16rem;
+    height: 18rem;
+}
+
+.column-3 .list ul li a {
+    text-decoration: none;
+}
+
+.column-2 {
+    width: 15rem;
+    height: 18rem;
+}
+
+
+.column-1 {
+    width: 15rem;
+    height: 18rem;
+}
+
+.footer-parent {
+    display: flex;
+    width: 43rem;
+    height: 20rem;
+    gap: 1.5rem;
+}
+
+
+.footer-left {
+    width: 25rem;
+    height: 18rem;
+}
+.footer-left p{
+    font-size: .9rem;
+}
+.fd {
+    display: flex;
+    height: 16rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 71rem;
+    align-self: center;
+    gap: 1.5rem;
+    justify-self: center;
+}
+
+.column-1 .list ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: .9rem;
+    position: relative;
+    left: -2.1rem;
+}
+
+.column-1 .list ul li {
+    list-style: none;
+    line-height: 2rem;
+}
+
+.column-1 .list {
+    margin-left: 0px;
+    width: 15rem;
+    height: 16rem;
+}
+
+.column-1 {
+    margin: 0px;
+}
+
+
+.column-2 .list ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: .9rem;
+    position: relative;
+    left: -2.1rem;
+}
+
+.column-2 .list ul li a:hover{
+    color: red;
+}
+.column-1 .list ul li a:hover{
+    color: red;
+}
+.column-3 .list ul li a:hover{
+    color: red;
+}
+.column-2 .list ul li {
+    list-style: none;
+    line-height: 2rem;
+}
+
+.column-2 .list {
+    margin-left: 0px;
+    width: 20rem;
+    height: 16rem;
+}
+
+.column-2 {
+    margin: 0px;
+}
+
+
+.column-3 .list ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: .9rem;
+    position: relative;
+    left: -2.1rem;
+}
+
+.column-3 .list ul li {
+    list-style: none;
+    line-height: 2rem;
+}
+
+.column-3 .list {
+  
+    width: 16rem;
+    height: 16rem;
+}
+
+.contact-list li {
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+.contact-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: .9rem;
+}
+
+.footer-left p {
+    color: white;
+}
+
+.footer-widget h3 {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.face {
+    color: white;
+}
+.face:hover{
+    color: red;
+}
+
+.twitter {
+    color: white;
+}
+
+.twitter:hover{
+    color: red;
+}
+
+
+.insta {
+    color: white;
+}
+
+.insta:hover{
+    color: red;
+}
+
+
+.linkedin {
+    color: white;
+}
+
+.linkedin:hover{
+    color: red;
+}
+
+
+.social-content li span {
+    color: white;
+}
+
+.sanu-footer p {
+    color: white;
+}
