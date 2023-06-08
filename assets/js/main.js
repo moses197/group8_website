@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     x[slideIndex - 1].style.display = "block";
   }
-
+  
   // get all the youtube modal triggers
   const youtubeModalTriggers = document.querySelectorAll(
     ".youtube-modal-trigger"
